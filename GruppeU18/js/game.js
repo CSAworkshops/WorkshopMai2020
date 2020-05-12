@@ -22,11 +22,11 @@ let ypos;
 let xpos;
 
 function preload () {
-  this.load.image("bear", "../img/bear.png");
-  this.load.image("buffalo", "../img/buffalo.png");
-  this.load.image("chick", "../img/chick.png");
-  this.load.image("elephant", "../img/elephant.png");
-  this.load.image("snake", "../img/snake.png");
+  this.load.image("bear", "img/bear.png");
+  this.load.image("buffalo", "img/buffalo.png");
+  this.load.image("chick", "img/chick.png");
+  this.load.image("elephant", "img/elephant.png");
+  this.load.image("snake", "img/snake.png");
 
 }
 

@@ -4,38 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WORKSHOP: GAMEDESIGN MIT JAVASCRIPT</title>
-    <style>
-      .card {
-        /* Add shadows to create the "card" effect */
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        transition: 0.3s;
-      }
-
-      /* On mouse-over, add a deeper shadow */
-      .card:hover {
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-      }
-    </style>
+    <link rel="stylesheet" href="asset/bootstrap.min.css" />
+    <link rel="stylesheet" href="asset/main.css" />
+    <script src="asset/bootstrap.min.js"></script>
   </head>
   <body>
-    <h3>Hier sind alle ergebnisse des JFF Workshops vom Mai 2020 zu finden</h3>
-    <a href="https://games.jff.de/gamedesign-mit-javascript/"
-      >Hier geht es zum Artikel des JFF</a
-    >
-    <a href="https://games.jff.de/"
-      >Weitere Spannende Themen auf der JFF seite</a
-    >
-    <div class="card">
-      <h2>Das Ergebnis von Gruppe 1</h2>
-      <iframe src="Gruppe1/index.html"></iframe>
+    <div class="container">
+      <div class="row">
+        <h1 class="title">ergebnisse des JFF Workshop Mai 2020</h1>
+      </div>
+      <a href="https://games.jff.de/gamedesign-mit-javascript/"
+        >Hier geht es zum Artikel des JFF</a
+      >
+      <a href="https://games.jff.de/"
+        >Weitere Spannende Themen auf der JFF seite</a
+      >
     </div>
-    <div class="card">
-      <h2>Das Ergebnis von Gruppe 2</h2>
-      <iframe src="Gruppe2/index.html"></iframe>
+    <div class="row">
+      <div class="col-md">
+        <a class="info-card link-noshow" href="Gruppe1/index.html">
+          <div class="card">
+            <iframe src="Gruppe1/index.html"></iframe>
+            <div class="card-block">
+              <h4 class="card-title">Das Ergebnis von Gruppe 1</h4>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md">
+        <a class="info-card link-noshow" href="Gruppe2/index.html">
+          <div class="card">
+            <iframe src="Gruppe2/index.html"></iframe>
+            <div class="card-block">
+              <h4 class="card-title">Das Ergebnis von Gruppe 2</h4>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
-    <div class="card">
-      <h2>Das Ergebnis von Gruppe 3</h2>
-      <iframe src="Gruppe3/index.html"></iframe>
+    <div class="row">
+      <div class="col-md">
+        <a class="info-card link-noshow" href="Gruppe3/index.html">
+          <div class="card">
+            <iframe src="Gruppe3/index.html"></iframe>
+            <div class="card-block">
+              <h4 class="card-title">Das Ergebnis von Gruppe 3</h4>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
   </body>
 </html>
